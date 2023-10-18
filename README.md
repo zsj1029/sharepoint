@@ -10,6 +10,7 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/wmfs/sharepoint/blob/master/README.md)
 
 > Adventures in uploading/listing/downloading documents in Microsoft **SharePoint Online**... using Node.js
+> add new function fileIsExist and downloadFile
 
 ## <a name="gettingStarted"></a>Getting Started
 
@@ -25,6 +26,10 @@ sp.deleteFolder(path)
 sp.createFile(options) // options = { path, fileName, data }
 sp.deleteFile(options) // options = { path, fileName }
 sp.createFileChunked(options) // options = { path, fileName, stream, fileSize, chunkSize }
+
+sp.fileIsExist(path) // path like '/TechnicalCommunications/ArchitectGenesis/Guide.pdf' in SharePoint, return true or false
+sp.downloadFile(path, savePath) // path like '/TechnicalCommunications/ArchitectGenesis/Guide.pdf' in SharePoint
+// savePath like './download/', if not pass, will return file arraybuffer
 ```
 
 ## <a name="test"></a>Test
