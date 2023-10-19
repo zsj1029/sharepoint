@@ -15,7 +15,11 @@
 ## <a name="gettingStarted"></a>Getting Started
 
 ```
-const Sharepoint = require('@wmfs/sharepoint')
+npm i @zsj1029/sharepoint -D
+```
+
+```
+const Sharepoint = require('@zsj1029/sharepoint')
 const sp = new Sharepoint('URL HERE')
 
 sp.authenticate()
