@@ -1,21 +1,22 @@
 {
-  "name": "@wmfs/sharepoint",
-  "version": "0.0.0-semantically-released",
-  "description": "Trying to upload/list/download documents in Microsoft SharePoint, using Node.js",
-  "author": "West Midlands Fire Service",
-  "homepage": "https://github.com/wmfs/sharepoint#readme",
+  "name": "@zsj1029/sharepoint",
+  "version": "1.0.2",
+  "description": "Trying to upload/list/download/fileisexist file in Microsoft SharePoint, using Node.js, and forked from @wmfs/sharepoint",
+  "author": "zsj1029",
+  "homepage": "https://github.com/zsj1029/sharepoint#readme",
   "keywords": [
     "sharepoint",
-    "tymly",
+    "download",
+    "fileisexist",	
     "package"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wmfs/sharepoint.git"
+    "url": "https://github.com/zsj1029/sharepoint.git"
   },
   "bugs": {
-    "url": "https://github.com/wmfs/sharepoint/issues"
+    "url": "https://github.com/zsj1029/sharepoint/issues"
   },
   "main": "./lib/index.js",
   "dependencies": {
