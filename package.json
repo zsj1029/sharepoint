@@ -1,13 +1,13 @@
 {
   "name": "@zsj1029/sharepoint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Trying to upload/list/download/fileisexist file in Microsoft SharePoint, using Node.js, and forked from @wmfs/sharepoint",
   "author": "zsj1029",
   "homepage": "https://github.com/zsj1029/sharepoint#readme",
   "keywords": [
     "sharepoint",
     "download",
-    "fileisexist",	
+    "fileisexist",
     "package"
   ],
   "license": "MIT",
@@ -21,7 +21,7 @@
   "main": "./lib/index.js",
   "dependencies": {
     "node-sp-auth": "3.0.7",
-    "axios": "1.4.0"
+    "axios": "1.5.1"
   },
   "devDependencies": {
     "chai": "4.3.10",

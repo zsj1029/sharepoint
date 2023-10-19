@@ -33,7 +33,7 @@ sp.createFileChunked(options) // options = { path, fileName, stream, fileSize, c
 
 sp.fileIsExist(path) // path like '/TechnicalCommunications/ArchitectGenesis/Guide.pdf' in SharePoint, return true or false
 sp.downloadFile(path, savePath) // path like '/TechnicalCommunications/ArchitectGenesis/Guide.pdf' in SharePoint
-// savePath like './download/', if not pass, will return file arraybuffer
+// savePath like './download/', if not pass, will return file stream
 ```
 
 ## <a name="test"></a>Test
